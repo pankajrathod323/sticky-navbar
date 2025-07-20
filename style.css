@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  
+}
+.top-container{
+  
+  background-image: url("image.jpg");
+  height: 100vh;
+ background-size: cover;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+ text-align: center;
+ font-family:sans-serif;
+
+
+}
+.text{
+  margin: 50px 5%;
+  font-family: sans-serif;
+}
+.navbar{
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition:  background-color 0.2s;
+}
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+.navbar ul li a{
+  text-decoration: none;
+  margin: 0px 10px;
+  color: black;
+  font-family: cursive;
+  align-items: center;
+}
+
+.navbar ul li a:hover{
+  color: purple;
+}
+
+.active{
+  background-color: black;
+  color: white;
+}
+.active ul li a{
+  color: white;
+}
